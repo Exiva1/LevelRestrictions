@@ -1,0 +1,25 @@
+name: LevelRestrictionsPlugin
+version: 1.0
+main: me.elmosahoe.levelrestrictions.LevelRestrictionsPlugin
+author: Elmo @ Chatgpt
+description: Restricts usage of items based on player levels.
+softdepend: [ItemsAdder]
+commands:
+  addrestriction:
+    description: Adds a level restriction to an item.
+    usage: /<command> <material> <type> <level>
+  removerestriction:
+    description: Removes a level restriction from an item.
+    usage: /<command> <material>
+  listrestrictions:
+    description: Lists all item level restrictions.
+    usage: /<command>
+  testcustomitem:
+    description: Test if an item ID is a valid custom item.
+    usage: /<command> <itemId>
+  testconfig:
+    description: Tests reading from the configuration.
+    usage: /testconfig <customItemID>
+  addhandrestriction:
+    description: Add a restriction for the item in hand
+    usage: /<command> <level> <type>

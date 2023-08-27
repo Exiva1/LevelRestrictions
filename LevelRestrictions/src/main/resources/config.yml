@@ -1,0 +1,106 @@
+restrictions:
+  # Wood Tools
+  WOODEN_PICKAXE:
+    type: TOOL
+    level: 1
+  WOODEN_AXE:
+    type: TOOL
+    level: 1
+  WOODEN_SHOVEL:
+    type: TOOL
+    level: 1
+  WOODEN_HOE:
+    type: TOOL
+    level: 1
+  WOODEN_SWORD:
+    type: WEAPON
+    level: 1
+
+  # Stone Tools
+  STONE_PICKAXE:
+    type: TOOL
+    level: 5
+  STONE_AXE:
+    type: TOOL
+    level: 5
+  STONE_SHOVEL:
+    type: TOOL
+    level: 5
+  STONE_HOE:
+    type: TOOL
+    level: 5
+  STONE_SWORD:
+    type: WEAPON
+    level: 5
+
+  # Iron Tools
+  IRON_PICKAXE:
+    type: TOOL
+    level: 10
+  IRON_AXE:
+    type: TOOL
+    level: 10
+  IRON_SHOVEL:
+    type: TOOL
+    level: 10
+  IRON_HOE:
+    type: TOOL
+    level: 10
+  IRON_SWORD:
+    type: WEAPON
+    level: 10
+
+  # Golden Tools
+  GOLDEN_PICKAXE:
+    type: TOOL
+    level: 15
+  GOLDEN_AXE:
+    type: TOOL
+    level: 15
+  GOLDEN_SHOVEL:
+    type: TOOL
+    level: 15
+  GOLDEN_HOE:
+    type: TOOL
+    level: 15
+  GOLDEN_SWORD:
+    type: WEAPON
+    level: 15
+
+  # Diamond Tools
+  DIAMOND_PICKAXE:
+    type: TOOL
+    level: 20
+  DIAMOND_AXE:
+    type: TOOL
+    level: 20
+  DIAMOND_SHOVEL:
+    type: TOOL
+    level: 20
+  DIAMOND_HOE:
+    type: TOOL
+    level: 20
+  DIAMOND_SWORD:
+    type: WEAPON
+    level: 20
+
+  # Leather Armor
+  LEATHER_HELMET:
+    type: ARMOR
+    level: 5
+  LEATHER_CHESTPLATE:
+    type: ARMOR
+    level: 5
+  LEATHER_LEGGINGS:
+    type: ARMOR
+    level: 5
+  LEATHER_BOOTS:
+    type: ARMOR
+    level: 5
+
+customItems:
+  iaalchemy:astral_pickaxe:
+    level: 25
+    type: TOOL
+
+# You can continue with other materials like chainmail, iron, gold, and diamond armor in a similar fashion.
